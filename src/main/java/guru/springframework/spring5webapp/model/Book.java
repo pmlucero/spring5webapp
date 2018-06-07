@@ -1,7 +1,5 @@
 package guru.springframework.spring5webapp.model;
 
-import com.sun.org.apache.xpath.internal.operations.String;
-
 import javax.persistence.*;
 import java.util.HashSet;
 import java.util.Set;
@@ -36,6 +34,7 @@ public class Book {
         this.publisher = publisher;
         this.authors = authors;
     }
+
 
     public Long getId() {
         return id;
